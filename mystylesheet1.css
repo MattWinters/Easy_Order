@@ -1,5 +1,5 @@
 body {
-    /*background-image: url("imgs/fast-food-logos.jpg"); ;*/
+    /*background-image: url("imgs/fast-food-logos.jpg");*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -59,26 +59,55 @@ body {
 .Info{
 	position:absolute;
 	left:0;
-	bottom:0
+	bottom:0;
+	background-color:black;
+	width: 100%;
+}
+
+.info-text{
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+	color: white;
 }
 
 
 .Name{
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 50%;
     width: 100%;
     text-align: center;
+    color: White;
     font-size: 18px;
+    background: Teal;
+    padding: 3%;
+
 }
 
 .resLogo{
-	height: 50px;
-	width: 50px;
-	object-fit: cover;
+	width: 100%;
+	object-fit: contain;
 }
 
+.contact-icon{
+	height: 50px;
+	width: 50px;
+}
+.res-but:hover{
+	color:#000!important;
+	background-color:#ccc!important;
+}
+
+.res-but{
+	border:none;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
 .entre{
 	width: 100%;
 	height: 150px;
@@ -199,3 +228,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+

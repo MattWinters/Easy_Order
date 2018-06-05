@@ -10,26 +10,28 @@
 
 <body>
 
-
+<div class="Name w3-jumbo">
+    <p>Easy Order</p>
+</div>
 
 <div class="bgimg w3-display-container w3-text-white">
   
   <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button" ><img class = "resLogo" src="imgs/Mcdonald's_logo.svg" alt="logo" ></button></p>
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="res-but " style="width:75%"><img class = "resLogo" src="imgs/Mcdonalds-logo.jpg" alt="logo" ></button></p>
     <p><button onclick="document.getElementById('res').style.display='block'" class="w3-button w3-black">Resturant 2</button></p>
   </div>
 </div>
 
 
 <!-- Information -->
-<div class="Name w3-jumbo">
-    <p>Easy Order</p>
-</div>
+
 
 <div class="Info w3-container">
-    <p class="w3-xlarge">
-    monday - friday 10-23 | saturday 14-02</p>
-    <p class="w3-large">42 village St, New York</p>
+	<p style="display: inline-block;"><button onclick="document.getElementById('contact').style.display='block'" class="res-but"><img class="contact-icon"  src="imgs/contact.png" alt="logo" ></button></p>
+    <p class="info-text">
+    Contact Information:</p>
+    <p class="info-text">Matt Winters : 203-912-6191</p>
+    <p class="info-text">Matt Abt : 203-912-8000 </p>
 </div>
 
 
@@ -144,7 +146,7 @@
 
 
 
-<!-- Contact Modal -->
+<!-- <!-- Contact Modal -->
 <div id="contact" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-black">
@@ -162,7 +164,33 @@
       </form>
     </div>
   </div>
-</div>
+</div> -->
+
+ <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+<!-- End Contact Section -->
 
 <script src="myjs.js"></script>
 
