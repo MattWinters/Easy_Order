@@ -56,6 +56,10 @@ body {
     }
 }
 
+.order_btn{
+	width: 150px;
+}
+
 .Info{
 	/*display: block;
 	position:absolute;
