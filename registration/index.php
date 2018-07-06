@@ -22,11 +22,7 @@
 
 <div id>
   <div class="header">
-<<<<<<< HEAD
    <span class="w3-button w3-display-topright w3-large"><a style="text-decoration:none" href="..\HomePage.html">x</a></span>
-=======
-    <a href="..\HomePage.html"><span class="w3-button w3-display-topright w3-large">x</span></a>
->>>>>>> d2c4f5cf5bbe5840e46dd05d25dd2b60eb3e5bf8
   	<h2>Home Page</h2>
   </div>
   <div class="content">

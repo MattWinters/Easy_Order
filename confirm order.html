@@ -4,19 +4,27 @@
 <title>Cross-Browser QRCode generator for Javascript</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="mystylesheet1.css">
+
 <script type="text/javascript" src="qrcodejs/jquery.min.js"></script>
 <script type="text/javascript" src="qrcodejs/qrcode.js"></script>
+
 <style>
-body { background-color: #85bb65}
+	body { background-color: #85bb65}
 </style>
 </head>
 <body>
 
-<h1>Order</h1>
+<span class="w3-button w3-display-topright w3-large"><a style="text-decoration:none" href="HomePage.html">x</a></span>
 
-<h2> Rum and Coke</h2>
+<div class="center">
+	<h1>Your Order:</h1>
+	<h2>1 Rum and Coke</h2>
+</div>
+
  
-<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+<div id="qrcode" style="width:100px; height:100px; margin-top:15px;" class="qr"></div>
 
 
 

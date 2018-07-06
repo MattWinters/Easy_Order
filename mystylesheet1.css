@@ -257,3 +257,18 @@ img {vertical-align: middle;}
   display: block;
   text-decoration-color: white;
 }
+
+.center{
+  margin: auto;
+  text-align: center;
+}
+
+.qr{
+  margin: auto;
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  left: 44%;
+
+}

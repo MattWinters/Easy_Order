@@ -4,8 +4,10 @@
 <head>
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
+  <span class="w3-button w3-display-topright w3-large"><a style="text-decoration:none" href="..\HomePage.html">x</a></span>
   <div class="header">
   	<h2>Register</h2>
   </div>
