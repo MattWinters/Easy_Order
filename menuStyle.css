@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: auto;
+  margin: auto;
+  background-color: #555;
+  height: 1000px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #3d95ce;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding:4.5px;
+}
+
+	
+.topnav a.icon:hover {
+	background-color:black;
+}
+	
+.active {
+  background-color: #3d95ce;
+  color: white;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.info-text{
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+	color: white;
+}
+
+.order_btn{
+	width: 150px;
+}
+
+.res-but:hover{
+	color:#000!important;
+	background-color:#ccc!important;
+}
+
+.res-but{
+	border:none;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+.footer{
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
