@@ -86,10 +86,11 @@ body {
 	width: 150px;
 }
 
-.res-but:hover{
+/*.res-but:hover{
 	color:#000!important;
 	background-color:#ccc!important;
 }
+*/
 
 .res-but{
 	border:none;
@@ -110,20 +111,22 @@ body {
   background-color: #3d95ce;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 99%;
+  margin:auto;
 }
 
-.footer a {
-  float: left;
+.footer a.nav {
+  float: right;
   display: block;
-  color: #3d95ce;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding: 34px;
+  background-color: #3d95ce;
 }
 
-.footer a:hover {
+.footer a.nav:hover {
   background: black;
   color: white;
 }
